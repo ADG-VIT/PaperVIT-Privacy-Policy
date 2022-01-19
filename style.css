@@ -1,0 +1,86 @@
+* {
+	box-sizing: border-box;
+	font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
+		Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji",
+		"Segoe UI Symbol";
+}
+/* ::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+::-webkit-scrollbar {
+	background: transparent;
+}
+::-webkit-scrollbar-track {
+	background: #2e2e2d;
+}
+::-webkit-scrollbar-thumb {
+	background: #403f3d;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #575652;
+} */
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 2em auto;
+	max-width: 750px;
+	color: #141316;
+	line-height: 1.5;
+	background-color: #ffffff;
+}
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+a {
+	color: #000000;
+}
+header {
+	margin-top: 10vh;
+}
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+	/* display: none; */
+}
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 10px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid #00000018;
+}
+.icon {
+	display: inline-block;
+	max-width: 2.4em;
+	max-height: 2.4em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+@media screen and (max-width: 576px) {
+	body {
+		padding: 2rem;
+	}
+	header {
+		margin-top: 0;
+	}
+}
